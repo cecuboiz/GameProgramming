@@ -19,7 +19,7 @@ C언어에서 `scanf("%s", string);`로 문자열을 입력받은 후, 이어서
 scanf(" %c", &c);
 
 
-2. getchar(); 사용
+## 2. getchar(); 사용
 두 scanf 사이에 getchar(); 함수를 삽입하여 버퍼에 남은 \n을 강제로 소모시킵니다.
 scanf("%s", string);
 getchar(); // 버퍼 비우기
